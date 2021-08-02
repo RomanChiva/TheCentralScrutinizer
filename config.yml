@@ -1,0 +1,48 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: The Central Scrutinizer
+paginate: 5
+theme: PaperMod
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+    main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Blog
+          url: /posts/blog/
+          weight: 10
+        - name: Playlists
+          url: /posts/playlists/
+          weight: 10
+        - name: Reviews
+          url: /posts/reviews/
+          weight: 10
+        - name: Podcast
+          url: /posts/podcast/
+          weight: 10
+        - name: Search
+          url: search
+          weight: 10
+
+
+params:
+  homeInfoParams:
+        Title: "Site in progress..."
+        Content: >
+             
+              There is still a lot more to come, the page is still under constructuion
+      
+
+              ![image](Zappa.jpg)
+           
+             
+
+   
+    
